@@ -1,0 +1,1 @@
+var LQApp = angular.module('LQApp', ['ngRoute']);
