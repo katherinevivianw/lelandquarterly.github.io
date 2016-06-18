@@ -58,3 +58,10 @@ a {
     font-size: 18px;
 	text-decoration: none;
 }
+
+.credits {
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+}
