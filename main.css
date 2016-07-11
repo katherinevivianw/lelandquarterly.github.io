@@ -73,6 +73,15 @@ h1 {
     font-size: 24px;
 }
 
+.submitstyle {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 30px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 24px;
+}
+
 .credits {
     font-family: "Helvetica Neue";
     font-weight: 100;
