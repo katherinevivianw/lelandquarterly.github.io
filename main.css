@@ -17,7 +17,6 @@ body {
 #bodybox {
 	background-color: white;
 	width: 75%;
-
 }
 
 h1 {
@@ -69,6 +68,9 @@ h1 {
     width: 75%;
     margin: auto;
     padding-bottom: 30px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size: 18px;
 }
 
 .credits {
