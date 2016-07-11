@@ -60,9 +60,8 @@ h1 {
 }
 
 .mailinglink {
-    text-decoration: none;
     font-family: "Helvetica Neue";
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .joinstyle {
