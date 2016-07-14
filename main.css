@@ -101,7 +101,7 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
-    .button {
+    [class*="button"] {
         font-weight: 500;
     }
 }
