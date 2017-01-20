@@ -1,81 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title> LQ: join </title>
-    <script src="angular/angular.js"></script>
-    <script src="angular-route/angular-route.min.js"></script>
-
-    <script src="mainController.js"></script>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    
-    <script src="components/header/headerController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/header/header.css"/>
-
-    <script src="components/home/homeController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/home/home.css"/>
-
-    <script src="components/about/aboutController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/about/about.css"/>
-
-    <script src="components/blog/blogController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/blog/blog.css"/>
-
-    <script src="components/join/joinController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/join/join.css"/>
-
-    <script src="components/submit/submitController.js"></script>
-    <link rel="stylesheet" type = "text/css" href="components/submit/submit.css"/>
-    
+    <title>Leland Quarterly</title>
     <link rel="icon" href="LQtab.png">
-
+	<meta charset="utf-8"> 	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 </head>
 
 <body>
-	<div id = "invisibleflex">
-		<div id = "bodybox">
-            <h1>
-                <img src="LQmain.png" width="50%">
-                <br>l e l a n d &nbsp; q u a r t e r l y
-            </h1>
-            <br>
-            
-            <table style ="width:75%; margin:auto;">
-                <tr>
-                    <td> 
-                        <a class="button" href="index"> H O M E </a>
-                    </td>
-                    <td> 
-                        <a class="button" href="about"> A B O U T </a>
-                    </td>
-                    <td> 
-                        <a class="button" href="https://issuu.com/lelandquarterly/stacks/971d29be67b54b5ea2ff398a8e3cce23" target="_blank"> I S S U E S </a> 
-                    </td>
-                    <td> 
-                        <a class="button" href="join"> J O I N </a>
-                    </td>
-                    <td> 
-                        <a class="button" href="submit"> S U B M I T </a>
-                    </td>
-                </tr>
-            </table>
-            
-            <div ng-view></div>
-            <div class="joinstyle"> 
-                <h1> w a n t &nbsp; t o &nbsp; j o i n ?</h1>
-                <div style="text-align: left">
-                All Stanford students can join Leland Quarterly at any time they like&mdash;just come to a meeting! We have a few meetings each quarter through the process of selecting, editing, and laying out pieces, all of which you can hear about through the mailing list: 
-                </div>
-                <br>
-                <br>
-                <a href="https://mailman.stanford.edu/mailman/listinfo/lelandquarterly" target="_blank" class="mailinglink"> 
-                    JOIN HERE
-                </a>
-            </div>
+    <div class="jumbotron text-center" style ="background-color:white;">
+        <img src="LQmain.png" width="30%">
+        <h1> leland quarterly</h1>
+        <div class = "row text-center">
+            <a href="index" class = "btn btn-default" role = "button"> HOME </a>
+            <a href="about" class = "btn btn-default" role = "button" target="_blank"> ABOUT </a>
+            <a href="https://issuu.com/lelandquarterly/stacks/971d29be67b54b5ea2ff398a8e3cce23" class = "btn btn-default" role = "button" target="_blank"> ISSUES </a>
+            <a href="join" class = "btn btn-default" role = "button" target="_blank"> JOIN </a>
+            <a href="submit" class = "btn btn-default" role = "button" target="_blank"> SUBMIT </a>
         </div>
     </div>
-    <div class="credits"> <a class ="creditslink" href="http://amyjchen.github.io/">a m y &nbsp; c h e n </a> &nbsp; 2 0 1 6 </div>
+    <div class = "row">
+        <div class ="container">
+            <h2> want to join? </h2>
+            <div style="text-align: left">
+                All Stanford students can join Leland Quarterly at any time they like&mdash;just come to a meeting! We have a few meetings each quarter through the process of selecting, editing, and laying out pieces, all of which you can hear about through the mailing list: 
+            </div>
+            <a href="https://mailman.stanford.edu/mailman/listinfo/lelandquarterly" target="_blank" class="mailinglink"> 
+                JOIN HERE
+            </a>
+        </div>
+    </div>
+    <footer class="footer text-center" style="padding-top:20px;"> website made with love by <a class ="creditslink" href="http://amyjchen.github.io/"> amy chen </a> 2016-2017 </footer>
 </body>
 </html>
