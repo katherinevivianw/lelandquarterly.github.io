@@ -1,2 +1,3 @@
-# amyjchen.github.io
-website
+# lelandquarterly.github.io
+
+website for Stanford undergraduate literary magazine Leland Quarterly
